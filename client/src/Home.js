@@ -77,12 +77,12 @@ const ChatbotEmbed = () => {
     <div className="home-page">
       {/* Navigation Bar */}
       <nav className="navbar">
-        <div className="navbar-brand">Drug Guardian</div>
+        <div className="navbar-brand">Transparent Drug </div>
       </nav>
 
       <div className="container">
         <div className="header">
-          <h3>Drug Guardian</h3>
+          <h3>Transparent Drug </h3>
           <h5>"Securing Every Dose: Blockchain-Driven Drug Supply Chain to Combat Counterfeit"</h5>
         </div>
         <br />

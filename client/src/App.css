@@ -10,7 +10,7 @@
 .navbar {
     background-color: #0B132B; /* Dark background color */
     padding: 15px 20px; /* Added horizontal padding */
-    color: #6FFFE9; /* Change text color to light teal */
+    color: #20a069; /* Change text color to light teal */
     font-size: 1.5rem;
     font-weight: bold;
     position: fixed;
@@ -23,14 +23,14 @@
 
 /* Navigation Bar Brand */
 .navbar-brand {
-    color: #6FFFE9; /* Set color for brand text */
+    color: #907cff; /* Set color for brand text */
     font-size: 2rem; /* Increase the size of the brand text */
     flex-grow: 1; /* Allow the brand to take up space */
 }
 
 /* Ensure all text in navbar is light teal */
 .navbar, .navbar * {
-    color: #6FFFE9 !important; 
+    color: #907cff !important; 
 }
 
 /* Adjust container to account for the fixed navbar */
@@ -38,7 +38,7 @@
     max-width: 800px; /* Max width of the container */
     margin: 100px auto 0; /* Center container and add margin to prevent overlap with navbar */
     padding: 40px 20px; /* Increase top padding to 40px */
-    background-color: #5BC0BE; /* Light teal background for the container */
+    background-color: #5bafc0; /* Light teal background for the container */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
 }
@@ -64,8 +64,8 @@
 
 /* Section Boxes */
 .grid-container > div {
-    background-color: #3A506B; /* Dark teal background for each box */
-    border: 2px solid #5BC0BE; /* Light teal border for boxes */
+    background-color: #cccee8; /* Dark teal background for each box */
+    border: 2px solid #c0b15b; /* Light teal border for boxes */
     border-radius: 10px; /* Rounded corners */
     padding: 20px; /* Padding for content */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow */
@@ -110,7 +110,7 @@ button:focus {
 /* Current Account Address */
 span {
     font-size: 16px; /* Font size for the address */
-    color: #5BC0BE; /* Teal color for the text */
+    color: #907cff; /* Teal color for the text */
     display: inline-block; /* Aligns elements side by side */
 }
 
@@ -127,8 +127,8 @@ span b {
 /* HOME Button */
 .btn-outline-danger {
     background-color: transparent; /* Transparent background */
-    border-color: #6FFFE9 !important; /* Lighter teal border color */
-    color: #6FFFE9; /* Lighter teal text color */
+    border-color: #9f6fff !important; /* Lighter teal border color */
+    color: #6f76ff; /* Lighter teal text color */
     padding: 5px 10px; /* Padding for button */
     border-radius: 5px; /* Rounded corners */
     transition: all 0.3s ease; /* Smooth transition */
@@ -137,7 +137,7 @@ span b {
 
 /* Hover effect for the button */
 .btn-outline-danger:hover {
-    background-color: #5BC0BE !important; /* Darker teal background on hover */
+    background-color: #8e5bc0 !important; /* Darker teal background on hover */
     color: white; /* White text on hover */
     cursor: pointer; /* Change cursor to pointer */
 }
@@ -192,7 +192,7 @@ span b {
 form {
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #1C2541; /* Darker blue for form */
+    background-color: #907cff; /* Darker blue for form */
     border-radius: 10px;
 }
 
@@ -203,10 +203,10 @@ input.form-control-sm {
     margin-bottom: 10px;
     padding: 10px;
     font-size: 14px;
-    border: 1px solid #6FFFE9; /* Lighter teal border */
+    border: 1px solid #2f1dd0; /* Lighter teal border */
     border-radius: 5px;
-    background-color: #3A506B; /* Darker background for inputs */
-    color: #EDEDED; /* Light text color */
+    background-color: #fafafb; /* Darker background for inputs */
+    color: #000000; /* Light text color */
 }
 
 input.form-control-sm::placeholder {
